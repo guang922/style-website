@@ -13,7 +13,7 @@ article.info>.col>.item-1{
 article.info>.col>.item-1>.pic1{
     width: 50%;
     height: 300px;
-    background-image: url(./article-1.jpg);background-size: cover;
+    background-image: url(article-1.jpg);background-size: cover;
 }
 article.info>.col>.item-1>.pic1:hover{
     opacity: 70%;
@@ -21,7 +21,7 @@ article.info>.col>.item-1>.pic1:hover{
 article.info>.col>.item-1>.pic2{
     width: 50%;
     height: 300px;
-    background-image: url(./article-2.jpg);background-size: cover;
+    background-image: url(article-2.jpg);background-size: cover;
 }
 article.info>.col>.item-1>.pic2:hover{
     opacity: 70%;
