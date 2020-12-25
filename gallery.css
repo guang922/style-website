@@ -23,11 +23,11 @@ section.gallery>.col>.picture{
 	display:flex;align-items:center;color:#ffffff;
 }
 section.gallery>.col>.picture-1{
-	background-image:url(picture/gallery-1.jpg);
+	background-image:url(gallery-1.jpg);
 	background-size:cover;
 }
 section.gallery>.col>.picture-2{
-	background-image:url(picture/gallery-2.jpg);
+	background-image:url(gallery-2.jpg);
 	background-size:cover;
 }
 /* section.gallery>.col>.text */
