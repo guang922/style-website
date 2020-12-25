@@ -1,0 +1,75 @@
+article.info{
+    display: flex;justify-content: center;padding:40px 0px;
+    word-break: keep-all;
+}
+article.info>.col{
+    width: 900px;margin:20px;
+}
+article.info>.col>.item-1{
+    border: 1px solid #aaaaaa;
+    display: flex;
+    margin: 10px;
+}
+article.info>.col>.item-1>.pic1{
+    width: 50%;
+    height: 300px;
+    background-image: url(article-1.jpg);background-size: cover;
+}
+article.info>.col>.item-1>.pic1:hover{
+    opacity: 70%;
+}
+article.info>.col>.item-1>.pic2{
+    width: 50%;
+    height: 300px;
+    background-image: url(article-2.jpg);background-size: cover;
+}
+article.info>.col>.item-1>.pic2:hover{
+    opacity: 70%;
+}
+article.info>.col>.item-1>.content1{
+    width: 50%;
+}
+article.info>.col>.item-1>.content1>hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 90%;
+}
+article.info>.col>.item-1>.content1>.block1{
+ padding: 30px;
+}
+article.info>.col>.item-1>.content1>.block1>.words1{
+    padding-top: 30px;
+    font-size: 0.7em;
+    line-height: 20px;
+    color: rgba(00, 00, 00, 0.5);
+}
+article.info>.col>.item-1>.content1>.block2{
+    margin-top: 20px;
+    display: flex;
+    font-size: 0.7em;
+    color: rgba(00, 00, 00, 0.5);
+}
+article.info>.col>.item-1>.content1>.block2>.view{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+@media (max-width:800px){
+	article.info>.col{
+		width:90%;margin:20px 0px;
+    }
+    article.info>.col>.item-1{
+        flex-wrap:wrap;
+    }
+    article.info>.col>.item-1>.pic1{
+        width: 100%;
+    }
+    article.info>.col>.item-1>.pic2{
+        width: 100%;
+    }
+    article.info>.col>.item-1>.content1{
+        width: 100%;
+    }
+    article.info>.col>.item-1>.content1>.block2{
+        margin: 10px;
+    }
+}
