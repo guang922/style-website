@@ -5,7 +5,7 @@ body{
 /* nav */
 nav{
 	height:900px;
-	background-image:url(picture/bg.jpg);
+	background-image:url(bg.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 }
